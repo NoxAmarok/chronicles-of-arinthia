@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Fantasy Adventure</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="game-container">
+    <h1>Fantasy Adventure</h1>
+    <div id="intro" class="screen">
+        <p>Welcome to the land of Arinthia! Strange beasts roam the forests, dark magic stirs beneath ancient ruins, and heroic adventurers seek glory and gold.</p>
+        <p>Choose your class:</p>
+        <button class="class-select" data-class="Warrior">Warrior</button>
+        <button class="class-select" data-class="Mage">Mage</button>
+        <button class="class-select" data-class="Ranger">Ranger</button>
+    </div>
+
+    <div id="game" class="screen hidden">
+        <p id="description"></p>
+        <p id="status"></p>
+        <div id="options"></div>
+    </div>
+</div>
+<script src="game.js"></script>
+</body>
+</html>

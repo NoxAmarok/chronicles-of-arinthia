@@ -1,0 +1,49 @@
+body {
+    background: #222;
+    color: #eee;
+    font-family: sans-serif;
+    margin: 0; 
+    padding: 0; 
+}
+
+.game-container {
+    max-width: 600px;
+    margin: 50px auto;
+    background: #333;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.screen {
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+button {
+    background: #555;
+    color: #eee;
+    padding: 10px 15px;
+    border: none;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background: #666;
+}
+
+#status {
+    margin-bottom: 20px;
+}
+
+#description {
+    margin-bottom: 20px;
+}
